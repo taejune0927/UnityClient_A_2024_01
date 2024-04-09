@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e0a7899ba3790045b842e945b9b7e27, type: 3}
   m_Name: NewStory 2
   m_EditorClassIdentifier: 
-  storyNumber: 0
+  storyNumber: 2
   storyType: 0
   storyDone: 0
-  storyText: 
+  storyText: 22222222222222222222
   options:
   - optionText: "\uACF5\uACA9\uD55C\uB2E4."
     buttonText: 
