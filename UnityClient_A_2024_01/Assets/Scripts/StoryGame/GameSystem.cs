@@ -22,6 +22,8 @@ public class GameSystemEditor : Editor
 }
 #endif
 
+
+
 public class GameSystem : MonoBehaviour
 {
     public StoryModel[] storyModels;                  //변경된 스토리 모델로 생성
