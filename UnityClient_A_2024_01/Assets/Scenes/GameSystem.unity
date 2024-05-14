@@ -720,18 +720,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce9f42cbccd9b4e4da007fa53510343f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 390579403}
-  delay: 0.1
-  fullText: 
-  currentText: 
-  currentState: 0
   storyModels:
-  - {fileID: 11400000, guid: d1a576c629e464c47ab72d7add45bf8f, type: 2}
-  - {fileID: 11400000, guid: 5b8762f5b225bf84bbebef1dd1759783, type: 2}
-  - {fileID: 11400000, guid: d3735708c7094b849a08571cd28b190d, type: 2}
-  currentModels: {fileID: 11400000, guid: d2b4f33078f972f4e9b8dd86d0b08d98, type: 2}
-  currentStoryIndex: 0
-  showStroy: 0
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
