@@ -41,8 +41,7 @@ public class StorySystem : MonoBehaviour
             buttonWay[i].onClick.AddListener(() => OnWayClick(wayIndex));
         }
 
-        StoryModelinit();
-        StartCoroutine(ShowText());
+       
     }
 
     public void StoryModelinit()
@@ -56,9 +55,20 @@ public class StorySystem : MonoBehaviour
         }
     }
 
-    public void OnWayClick(int index)
+    public void OnWayClick(int index)                     //선택지 버튼에 따른 함수 index는 버튼에 연결된 번호를 받아온다
     {
+        bool CheckEventTypeNone = false;
+        StoryModel playStoryModle = currentStoryModel;
 
+        if (playStoryModle.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.NONE);
+        {
+            for(int i = 0; i < playStoryModle.options[index].eventCheck.suceessResult.Length; i++)
+            {
+                GameSystem.instance.ApplyChoice(currentStoryModel options[index].eventCheck.suceessResult[i]);
+                CheckEventTypeNone = true;
+            }
+            
+        }
     }
 
     IEnumerator ShowText()                              //코루틴 함수 사용
